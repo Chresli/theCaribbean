@@ -50,38 +50,38 @@ html(lang='en')
             .container.px-4.px-lg-5.h-100
                 .row.gx-4.gx-lg-5.h-100.align-items-center.justify-content-center.text-center
                     .col-lg-8.align-self-end
-                        h1.text-white.font-weight-bold Schwifty Bikes
+                        h1.text-white.font-weight-bold The Caribbean
                         hr.divider
                     .col-lg-8.align-self-baseline
                         p.text-white-75.mb-5
-                            | Finding the bike that fits you
-                        a.btn.btn-primary.btn-xl(href='#portfolio') Shop Now
+                            | Lake George
+                        //- a.btn.btn-primary.btn-xl(href='#portfolio') Shop Now
                         //- a.btn.btn-primary.btn-xl(href='#about') Find Out More
 
         // Services
         section#services.page-section.bg-dark
             .container.px-4.px-lg-5.text-white
-                h2.text-center.mt-0 Bikes to be Seen
+                h2.text-center.mt-0 How We Caribbean
                 hr.divider
                 .row.gx-4.gx-lg-5
                     .col-lg-4.col-xs-12.text-center
                         .mt-5
                             .mb-2
-                                i.bi-card-checklist.fs-1.text-primary
-                            h3.h4.mb-2 Customizable
-                            p.text-white-75.mb-0 Our bikes come with the ability to customize each part to find that perfect fit
+                            img.img-fluid(src='assets/img/icons/cooking-icon.png', alt='...')
+                            h3.h4.mb-2 Magical Eats
+                            p.text-white-75.mb-0 Food with authentic flavors that deliver a satisfying blow to the taste buds
                     .col-lg-4.col-xs-12.text-center
                         .mt-5
                             .mb-2
-                                i.bi-globe.fs-1.text-primary
-                            h3.h4.mb-2 Ships Anywhere
-                            p.text-white-75.mb-0 No matter where you live we'll ship to you
+                                i.bi-disc.fs-1.text-primary
+                            h3.h4.mb-2 Music for the Soul 
+                            p.text-white-75.mb-0 Live music acts that take you to another place and bring excitement to the night
                     .col-lg-4.col-xs-12.text-center
                         .mt-5
                             .mb-2
-                                i.bi-heart.fs-1.text-primary
-                            h3.h4.mb-2 Made with Love
-                            p.text-white-75.mb-0 We give a piece of ourselves everytime we work on a new ride
+                            img.img-fluid(src='assets/img/icons/cocktail-icon.png', alt='...')
+                            h3.h4.mb-2 Exquisite Drinks
+                            p.text-white-75.mb-0 For those looking to kick back and relax we have just what you need
 
         // About
         section#about.page-section.bg-primary
@@ -90,10 +90,10 @@ html(lang='en')
                     .col-lg-6.col-sm-12
                         img.img-fluid(src='assets/img/info-1.jpg', alt='...')
                     .col-lg-6.col-sm-12.p-5
-                        h2.text-white.mt-0.text-center We've got what you need!
+                        h2.text-white.mt-0.text-center Best Place on Lake George!
                         hr.divider.divider-light
                         p.text-white-75.mb-4
-                            | No matter what kind of rider we'll find a bike that fits you. Choose from a variety of bikes in our store below. If you don't find a model you like contact us and we'll see what we can do to get you back on the go.
+                            | Whenever you're out by Lake George stop in at The Caribbean and see what we're about
                 .row.g-0
                     .col-lg-6.col-sm-12.p-5
                         h2.text-white.mt-0.text-center Make it last!
@@ -104,76 +104,96 @@ html(lang='en')
                         img.img-fluid(src='assets/img/info-2.jpg', alt='...')
                         
  
+        section.bg-dark.py-2
+            .container.px-4.px-lg-5
+                .text-center.text-white-75.my-5
+                        img.img-fluid(src='assets/img/icons/cooking-icon.png', alt='...')
+                        h2 Menu
+
         // Portfolio
         #portfolio
             .container-fluid.p-0
                 .row.g-0
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/1.jpg', title='Fat Tire')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/1.jpg', alt='...')
+                    .col-lg-6
+                        a.portfolio-box(href='assets/img/Menu/pastelillos.jpg', title='Pastelillos - Pastry Puff Filled with Ground Beef')
+                            img.img-fluid(src='assets/img/Menu/pastelillos.jpg', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                img.img-fluid(src='assets/img/icons/cooking-icon.png', alt='...')
                                 .project-name
-                                    | Fat Tire
+                                    | Pastelillos
                                 .project-category.text-white-50
-                                    | $600.00
-                                div#product-component-1645229335657
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/2.jpg', title='Golden Boy')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/2.jpg', alt='...')
+                                    | 1 for $3 / 4 for $9
+                    .col-lg-6
+                        a.portfolio-box(href='assets/img/Menu/tostones-1.jpg', title='Tostones - Fried Plantain with Mango pico')
+                            img.img-fluid(src='assets/img/Menu/tostones-1.jpg', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                img.img-fluid(src='assets/img/icons/cooking-icon.png', alt='...')
                                 .project-name
-                                    | Golden Boy
+                                    | Tostones
                                 .project-category.text-white-50
-                                    | $1200.00
-                                div#product-component-1645229408364
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/3.jpg', title='Black Mamba')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/3.jpg', alt='...')
+                                    | $9.00
+                    .col-lg-6
+                        a.portfolio-box(href='assets/img/Menu/alcapurria.jpg', title='Alcapuria - Plantain Fritter Filled with Ground Beef')
+                            img.img-fluid(src='assets/img/Menu/alcapurria.jpg', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                img.img-fluid(src='assets/img/icons/cooking-icon.png', alt='...')
                                 .project-name
-                                    |  Black Mamba
+                                    | Alcapuria
                                 .project-category.text-white-50
-                                    | $450.00
-                                div#product-component-1645229473435
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/4.jpg', title='Night Rider')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/4.jpg', alt='...')
+                                    | 1 for $3 / 4 for $9
+                    .col-lg-6
+                        a.portfolio-box(href='assets/img/Menu/pork-slider.jpg', title='Pork Sliders - Slow Roasted Pork on a Hawaiian Bun')
+                            img.img-fluid(src='assets/img/Menu/pork-slider.jpg', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                img.img-fluid(src='assets/img/icons/cooking-icon.png', alt='...')
                                 .project-name
-                                    | Night Rider
+                                    | Pork Sliders
                                 .project-category.text-white-50
-                                    | $1500.00
-                                div#product-component-1645229538017
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/5.jpg', title='Mary Jane')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/5.jpg', alt='...')
+                                    | $10.00
+                    .col-lg-6
+                        a.portfolio-box(href='assets/img/Menu/nachos.jpg', title='Nachos - Roasted Pork, Crispy Plantain, Moz Cheese, Jalapenos')
+                            img.img-fluid(src='assets/img/Menu/nachos.jpg', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                img.img-fluid(src='assets/img/icons/cooking-icon.png', alt='...')
                                 .project-name
-                                    | Mary Jane
+                                    | Caribe Nachos
                                 .project-category.text-white-50
-                                    | $325.00
-                                div#product-component-1645229645498
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/6.jpg', title='Amsterdam')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/6.jpg', alt='...')
+                                    | $10.00
+                    .col-lg-6
+                        a.portfolio-box(href='assets/img/Menu/cubano.jpg', title='Cubano Sandwich - Ham, Roasted Pork, Mustard, Pickle')
+                            img.img-fluid(src='assets/img/Menu/cubano.jpg', alt='...')
                             .portfolio-box-caption.p-3
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                img.img-fluid(src='assets/img/icons/cooking-icon.png', alt='...')
                                 .project-name
-                                    | Amsterdam
+                                    | Cubano Sandwich
                                 .project-category.text-white-50
-                                    | $950.00
-                                div#product-component-1645229695263
+                                    | $10.00
+                    .col-lg-6
+                        a.portfolio-box(href='assets/img/Menu/jibarito.jpg', title='Jibarito Sandwich - Bistek, Onion, Lettuce, Tomato, Plantain')
+                            img.img-fluid(src='assets/img/Menu/jibarito.jpg', alt='...')
+                            .portfolio-box-caption.p-3
+                                .project-category.text-white-50
+                                img.img-fluid(src='assets/img/icons/cooking-icon.png', alt='...')
+                                .project-name
+                                    | Jibarito Sandwich
+                                .project-category.text-white-50
+                                    | $10.00
+                    .col-lg-6
+                        a.portfolio-box(href='assets/img/Menu/bean-and-rice.jpg', title='Bean & Rice - With Steak & Onion or 1 Pork Chop')
+                            img.img-fluid(src='assets/img/Menu/bean-and-rice.jpg', alt='...')
+                            .portfolio-box-caption.p-3
+                                .project-category.text-white-50
+                                img.img-fluid(src='assets/img/icons/cooking-icon.png', alt='...')
+                                .project-name
+                                    | White Rice and Beans
+                                .project-category.text-white-50
+                                    | $19.00
 
         // Call to action
         //- section.page-section.bg-dark.text-white
@@ -283,14 +303,14 @@ html(lang='en')
         // Footer
         footer.bg-dark.py-2
             .container.px-4.px-lg-5
-                //- .small.text-center.text-muted
-                //-         i.bi-phone.fs-2.mb-3.text-muted
-                //-         div +1 (555) 123-4567
+                .small.text-center.text-muted
+                        i.bi-phone.fs-2.mb-3.text-muted
+                        div +1 (555) 123-4567
                 .small.text-center.text-muted.pb-3
                         i.bi-laptop.fs-2.mb-3.text-muted
-                        div support@schwiftybikes.com
+                        div gladys@thecaribbean.com
                 .small.text-center.text-muted
-                    | Copyright &copy; 2022 - Schwifty Bikes
+                    | Copyright &copy; 2022 - The Caribbean
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
@@ -300,12 +320,12 @@ html(lang='en')
 
         // Core theme JS
         script(src='js/scripts.js')
-        script(src='js/item-1.js')
-        script(src='js/item-2.js')
-        script(src='js/item-3.js')
-        script(src='js/item-4.js')
-        script(src='js/item-5.js')
-        script(src='js/item-6.js')
+        //- script(src='js/item-1.js')
+        //- script(src='js/item-2.js')
+        //- script(src='js/item-3.js')
+        //- script(src='js/item-4.js')
+        //- script(src='js/item-5.js')
+        //- script(src='js/item-6.js')
 
         // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
         // * *                               SB Forms JS                               * *
