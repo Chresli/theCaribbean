@@ -11456,3 +11456,39 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+#togo .container-fluid, #togo .container-sm, #togo .container-md, #togo .container-lg, #togo .container-xl, #togo .container-xxl {
+  max-width: 1920px;
+}
+#togo .container-fluid .portfolio-box, #togo .container-sm .portfolio-box, #togo .container-md .portfolio-box, #togo .container-lg .portfolio-box, #togo .container-xl .portfolio-box, #togo .container-xxl .portfolio-box {
+  position: relative;
+  display: block;
+}
+#togo .container-fluid .portfolio-box .portfolio-box-caption, #togo .container-sm .portfolio-box .portfolio-box-caption, #togo .container-md .portfolio-box .portfolio-box-caption, #togo .container-lg .portfolio-box .portfolio-box-caption, #togo .container-xl .portfolio-box .portfolio-box-caption, #togo .container-xxl .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(0, 52, 82, 0.8);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#togo .container-fluid .portfolio-box .portfolio-box-caption .project-category, #togo .container-sm .portfolio-box .portfolio-box-caption .project-category, #togo .container-md .portfolio-box .portfolio-box-caption .project-category, #togo .container-lg .portfolio-box .portfolio-box-caption .project-category, #togo .container-xl .portfolio-box .portfolio-box-caption .project-category, #togo .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#togo .container-fluid .portfolio-box .portfolio-box-caption .project-name, #togo .container-sm .portfolio-box .portfolio-box-caption .project-name, #togo .container-md .portfolio-box .portfolio-box-caption .project-name, #togo .container-lg .portfolio-box .portfolio-box-caption .project-name, #togo .container-xl .portfolio-box .portfolio-box-caption .project-name, #togo .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#togo .container-fluid .portfolio-box:hover .portfolio-box-caption, #togo .container-sm .portfolio-box:hover .portfolio-box-caption, #togo .container-md .portfolio-box:hover .portfolio-box-caption, #togo .container-lg .portfolio-box:hover .portfolio-box-caption, #togo .container-xl .portfolio-box:hover .portfolio-box-caption, #togo .container-xxl .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
